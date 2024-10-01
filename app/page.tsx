@@ -1,7 +1,8 @@
+import Sidebar from "@/components/Sidebar";
 const page = () => {
   return ( 
     <>
-    hello
+    <Sidebar/>
     </>
    );
 }
