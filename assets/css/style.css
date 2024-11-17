@@ -129,7 +129,7 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+img, ion-icon, a, button, time, i,span { display: block; }
 
 button {
   font: inherit;
@@ -182,7 +182,7 @@ article {
   margin: 16px 0;
 }
 
-.icon-box {
+.icon-box,i {
   position: relative;
   background: var(--border-gradient-onyx);
   width: 30px;
@@ -202,7 +202,7 @@ article {
 
 }
 
-.icon-box::before {
+.icon-box,i::before {
   content: "";
   position: absolute;
   inset: 1px;
@@ -211,7 +211,7 @@ article {
   z-index: -1;
 }
 
-.icon-box ion-icon { --ionicon-stroke-width: 35px; }
+.icon-box,i ion-icon { --ionicon-stroke-width: 35px; }
 
 article { display: none; }
 
@@ -1309,7 +1309,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 5px;
   }
 
-  .icon-box {
+  .icon-box,i {
     width: 48px;
     height: 48px;
     border-radius: 12px;
